@@ -9,40 +9,42 @@
                                 display: none;
         }
                             .gradient-text {
-                                background: linear-gradient(to right, #BFDBFE, #E9D5FF);
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;
+                                background: linear-gradient(to right, #2C5282, #434190);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
         }
                             .badge {
                                 padding: 0.5rem 1rem;
-                            border-radius: 9999px;
-                            background: linear-gradient(to right, #F9FAFB, #F3F4F6);
-                            border: 1px solid #E5E7EB;
-                            color: #374151;
-                            font-size: 0.875rem;
-                            line-height: 1.25rem;
-                            margin: 0.25rem;
-                            display: inline-block;
+                                border-radius: 9999px;
+                                background: #F8FAFC;
+                                border: 1px solid #E2E8F0;
+                                color: #1A202C;
+                                font-size: 0.875rem;
+                                line-height: 1.25rem;
+                                margin: 0.25rem;
+                                display: inline-block;
         }
                             .card {
                                 padding: 1.5rem;
-                            border-radius: 0.75rem;
-                            background: linear-gradient(to right, #F9FAFB, #F3F4F6);
-                            transition: box-shadow 0.3s;
+                                border-radius: 0.75rem;
+                                background: #FFFFFF;
+                                border: 1px solid #E2E8F0;
+                                transition: all 0.3s ease;
         }
                             .card:hover {
-                                box - shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+                                transform: translateY(-2px);
         }
                         </style>
                     </head>
-                    <body class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+                    <body class="min-h-screen bg-gray-50">
                         <!-- Header -->
-                        <header class="bg-gradient-to-r from-blue-900 via-purple-900 to-gray-900 text-white">
+                        <header class="bg-gradient-to-r from-gray-900 to-blue-900 text-white">
                             <div class="max-w-6xl mx-auto px-6 py-16">
                                 <h1 class="text-5xl font-bold mb-4">
                                     Mohamed Amgad Khater
                                 </h1>
-                                <div class="text-gray-300 flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-6">
+                                <div class="text-gray-100 flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-6">
                                     <a href="mailto:moh_amgad@hotmail.com"
                                         class="transform hover:scale-105 transition-transform duration-200 hover:text-white">
                                         moh_amgad@hotmail.com
@@ -71,28 +73,35 @@
                                 <!-- Navigation Tabs -->
                                 <div class="p-4 bg-gray-50 border-b grid grid-cols-2 md:grid-cols-4 gap-2">
                                     <button onclick="showTab('experience')"
-                                        class="tab-button active flex items-center p-3 rounded-lg transition-all duration-300 bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg transform scale-105">
+                                        class="tab-button active flex items-center p-3 rounded-lg transition-all duration-300 bg-gradient-to-r from-gray-900 to-blue-900 text-white shadow-md transform scale-105">
                                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                         </svg>
                                         <span class="font-medium">Experience</span>
                                     </button>
+                                    <button onclick="showTab('projects')"
+                                        class="tab-button flex items-center p-3 rounded-lg transition-all duration-300 hover:bg-gray-100 text-gray-700 hover:text-gray-900">
+                                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                                        </svg>
+                                        <span class="font-medium">Projects</span>
+                                    </button>
                                     <button onclick="showTab('skills')"
-                                        class="tab-button flex items-center p-3 rounded-lg transition-all duration-300 hover:bg-white-100 text-white-600 hover:text-white-900">
+                                        class="tab-button flex items-center p-3 rounded-lg transition-all duration-300 hover:bg-gray-100 text-gray-700 hover:text-gray-900">
                                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                                         </svg>
                                         <span class="font-medium">Skills</span>
                                     </button>
                                     <button onclick="showTab('certifications')"
-                                        class="tab-button flex items-center p-3 rounded-lg transition-all duration-300 hover:bg-white-100 text-white-600 hover:text-white-900">
+                                        class="tab-button flex items-center p-3 rounded-lg transition-all duration-300 hover:bg-gray-100 text-gray-700 hover:text-gray-900">
                                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
                                         </svg>
                                         <span class="font-medium">Certifications</span>
                                     </button>
                                     <button onclick="showTab('achievements')"
-                                        class="tab-button flex items-center p-3 rounded-lg transition-all duration-300 hover:bg-white-100 text-white-600 hover:text-white-900">
+                                        class="tab-button flex items-center p-3 rounded-lg transition-all duration-300 hover:bg-gray-100 text-gray-700 hover:text-gray-900">
                                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
                                         </svg>
@@ -108,7 +117,7 @@
                                             <div class="flex items-start justify-between">
                                                 <div>
                                                     <h3 class="text-xl font-bold text-gray-800">Senior Security Engineer | Unifonic</h3>
-                                                    <p class="text-purple-600 mb-4">Jun 2024 – Present | Cairo, Egypt</p>
+                                                    <p class="text-blue-700 mb-4">Jun 2024 – Present | Cairo, Egypt</p>
                                                 </div>
                                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
@@ -141,7 +150,7 @@
                                             <div class="flex items-start justify-between">
                                                 <div>
                                                     <h3 class="text-xl font-bold text-gray-800">Senior Cyber Security Engineer | Cyshield</h3>
-                                                    <p class="text-purple-600 mb-4">Jan 2020 – Jun 2024 | Cairo, Egypt</p>
+                                                    <p class="text-blue-700 mb-4">Jan 2020 – Jun 2024 | Cairo, Egypt</p>
                                                 </div>
                                             </div>
                                             <ul class="space-y-2 text-gray-600">
@@ -161,67 +170,177 @@
                                         </div>
                                     </div>
 
+                                    <!-- Projects Section -->
+                                    <div id="projects" class="tab-content hidden">
+                                        <div class="space-y-6">
+                                            <!-- DVBLab Project -->
+                                            <div class="card">
+                                                <div class="flex items-start justify-between">
+                                                    <div>
+                                                        <h3 class="text-xl font-bold text-gray-800">DVBLab - Secure Banking Application Training Project</h3>
+                                                        <p class="text-blue-700 mb-2">Security Developer & Course Author</p>
+                                                        <p class="text-gray-600 mb-4">Tech Stack: Python, Flask, SQLAlchemy, React, JWT Authentication</p>
+                                                    </div>
+                                                    <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                                    </svg>
+                                                </div>
+                                                <ul class="space-y-2 text-gray-600">
+                                                    <li class="flex items-start">
+                                                        <svg class="w-5 h-5 mr-2 mt-1 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                                        </svg>
+                                                        Developed a comprehensive banking application with intentionally embedded security vulnerabilities for educational purposes
+                                                    </li>
+                                                    <li class="flex items-start">
+                                                        <svg class="w-5 h-5 mr-2 mt-1 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                                        </svg>
+                                                        Created course modules covering secure code review, authentication vulnerabilities, SQL injection prevention, and API security
+                                                    </li>
+                                                    <li class="flex items-start">
+                                                        <svg class="w-5 h-5 mr-2 mt-1 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                                        </svg>
+                                                        Implemented real-world security scenarios including race conditions, JWT vulnerabilities, and authorization bypass exploits
+                                                    </li>
+                                                    <li class="flex items-start">
+                                                        <svg class="w-5 h-5 mr-2 mt-1 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                                        </svg>
+                                                        Integrated industry security standards including OWASP, PCI DSS, FFIEC, and NIST frameworks
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <!-- Skills Section -->
                                     <div id="skills" class="tab-content hidden">
-                                        <div class="space-y-6">
+                                        <div class="space-y-8">
                                             <!-- Programming Skills -->
                                             <div class="card">
-                                                <h3 class="text-xl font-bold text-gray-800 mb-4">Programming</h3>
-                                                <div class="flex flex-wrap gap-2">
-                                                    <span class="badge">Python</span>
-                                                    <span class="badge">Java</span>
-                                                    <span class="badge">Ruby on Rails</span>
-                                                    <span class="badge">C</span>
-                                                    <span class="badge">PHP</span>
-                                                    <span class="badge">JavaScript</span>
-                                                    <span class="badge">Bash</span>
-                                                    <span class="badge">Android</span>
-                                                    <span class="badge">MySQL</span>
+                                                <h3 class="text-xl font-bold text-gray-800 mb-3">Software Development</h3>
+                                                <p class="text-gray-600 mb-6">Extensive experience in secure software development across multiple languages and frameworks, with a focus on building secure and scalable applications.</p>
+                                                <div class="grid md:grid-cols-2 gap-6">
+                                                    <div>
+                                                        <h4 class="font-semibold text-gray-700 mb-3">Primary Languages</h4>
+                                                        <div class="space-y-2">
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Python</span>
+                                                                <span class="text-gray-600 ml-2">- Primary language for security tooling</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Java</span>
+                                                                <span class="text-gray-600 ml-2">- Enterprise application development</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">JavaScript</span>
+                                                                <span class="text-gray-600 ml-2">- Web application development</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <h4 class="font-semibold text-gray-700 mb-3">Additional Technologies</h4>
+                                                        <div class="space-y-2">
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Ruby on Rails</span>
+                                                                <span class="text-gray-600 ml-2">- Web frameworks</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">MySQL</span>
+                                                                <span class="text-gray-600 ml-2">- Database management</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Bash</span>
+                                                                <span class="text-gray-600 ml-2">- Automation scripting</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <!-- Security Skills -->
                                             <div class="card">
-                                                <h3 class="text-xl font-bold text-gray-800 mb-4">Application Security</h3>
-                                                <div class="flex flex-wrap gap-2">
-                                                    <span class="badge">SAST</span>
-                                                    <span class="badge">DAST</span>
-                                                    <span class="badge">SCA</span>
-                                                    <span class="badge">Mobile Security</span>
-                                                    <span class="badge">Web Security</span>
-                                                    <span class="badge">Network Security</span>
-                                                    <span class="badge">Penetration Testing</span>
-                                                    <span class="badge">BurpSuite</span>
-                                                    <span class="badge">Metasploit</span>
+                                                <h3 class="text-xl font-bold text-gray-800 mb-3">Application Security</h3>
+                                                <p class="text-gray-600 mb-6">Specialized in implementing comprehensive security solutions across the software development lifecycle, from design to deployment.</p>
+                                                <div class="grid md:grid-cols-2 gap-6">
+                                                    <div>
+                                                        <h4 class="font-semibold text-gray-700 mb-3">Security Testing</h4>
+                                                        <div class="space-y-2">
+                                                            <div class="flex items-center">
+                                                                <span class="badge">SAST</span>
+                                                                <span class="text-gray-600 ml-2">- Static code analysis</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">DAST</span>
+                                                                <span class="text-gray-600 ml-2">- Dynamic application testing</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Penetration Testing</span>
+                                                                <span class="text-gray-600 ml-2">- Security assessments</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <h4 class="font-semibold text-gray-700 mb-3">Security Tools</h4>
+                                                        <div class="space-y-2">
+                                                            <div class="flex items-center">
+                                                                <span class="badge">BurpSuite</span>
+                                                                <span class="text-gray-600 ml-2">- Web security testing</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Metasploit</span>
+                                                                <span class="text-gray-600 ml-2">- Exploitation framework</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">SCA</span>
+                                                                <span class="text-gray-600 ml-2">- Dependency analysis</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <!-- Cloud & Infrastructure -->
                                             <div class="card">
-                                                <h3 class="text-xl font-bold text-gray-800 mb-4">Cloud & Infrastructure</h3>
-                                                <div class="flex flex-wrap gap-2">
-                                                    <span class="badge">AWS</span>
-                                                    <span class="badge">Kubernetes</span>
-                                                    <span class="badge">Docker</span>
-                                                    <span class="badge">DevSecOps</span>
-                                                    <span class="badge">CI/CD</span>
-                                                    <span class="badge">Infrastructure as Code</span>
-                                                    <span class="badge">Cloud Security</span>
-                                                    <span class="badge">Container Security</span>
-                                                </div>
-                                            </div>
-
-                                            <!-- Testing & Security Tools -->
-                                            <div class="card">
-                                                <h3 class="text-xl font-bold text-gray-800 mb-4">Security Assessment Tools</h3>
-                                                <div class="flex flex-wrap gap-2">
-                                                    <span class="badge">BurpSuite</span>
-                                                    <span class="badge">Metasploit</span>
-                                                    <span class="badge">Nmap</span>
-                                                    <span class="badge">Wireshark</span>
-                                                    <span class="badge">Mobile Security Tools</span>
-                                                    <span class="badge">Web Proxy Tools</span>
-                                                    <span class="badge">Vulnerability Scanners</span>
+                                                <h3 class="text-xl font-bold text-gray-800 mb-3">Cloud & Infrastructure</h3>
+                                                <p class="text-gray-600 mb-6">Experience in securing cloud-native applications and implementing DevSecOps practices in modern infrastructure environments.</p>
+                                                <div class="grid md:grid-cols-2 gap-6">
+                                                    <div>
+                                                        <h4 class="font-semibold text-gray-700 mb-3">Cloud Security</h4>
+                                                        <div class="space-y-2">
+                                                            <div class="flex items-center">
+                                                                <span class="badge">AWS</span>
+                                                                <span class="text-gray-600 ml-2">- Cloud security architecture</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Kubernetes</span>
+                                                                <span class="text-gray-600 ml-2">- Container orchestration</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">Docker</span>
+                                                                <span class="text-gray-600 ml-2">- Container security</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <h4 class="font-semibold text-gray-700 mb-3">DevSecOps</h4>
+                                                        <div class="space-y-2">
+                                                            <div class="flex items-center">
+                                                                <span class="badge">CI/CD</span>
+                                                                <span class="text-gray-600 ml-2">- Pipeline security</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">IaC</span>
+                                                                <span class="text-gray-600 ml-2">- Infrastructure as Code</span>
+                                                            </div>
+                                                            <div class="flex items-center">
+                                                                <span class="badge">DevSecOps</span>
+                                                                <span class="text-gray-600 ml-2">- Security automation</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -229,120 +348,175 @@
 
                                     <!-- Certifications Section -->
                                     <div id="certifications" class="tab-content hidden">
-                                        <div class="grid md:grid-cols-2 gap-6">
-                                            <!-- OSWE -->
+                                        <div class="space-y-6">
+                                            <!-- Advanced Security Certifications -->
                                             <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">OSWE</h3>
-                                                        <p class="text-gray-600">Offensive Security Web Expert</p>
-                                                        <p class="text-sm text-purple-600 mt-1">Offensive Security</p>
+                                                <h3 class="text-xl font-bold text-gray-800 mb-6">Advanced Security Certifications</h3>
+                                                <div class="grid md:grid-cols-2 gap-6">
+                                                    <!-- OSWE -->
+                                                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 border border-gray-200">
+                                                        <div class="flex items-start">
+                                                            <svg class="w-8 h-8 text-blue-700 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                                            </svg>
+                                                            <div class="ml-4 flex-1">
+                                                                <h4 class="text-lg font-bold text-gray-800">Offensive Security Web Expert (OSWE)</h4>
+                                                                <p class="text-gray-600 mt-2">Advanced certification demonstrating expertise in white box web application assessment and security. Validates ability to review source code, identify vulnerabilities, and exploit them creatively.</p>
+                                                                <div class="mt-4 flex items-center">
+                                                                    <span class="text-sm text-blue-700">Offensive Security</span>
+                                                                    <a href="https://www.credly.com/badges/71af9f0c-d411-4435-b31c-4d39c7ca4f8d/public_url" target="_blank" class="ml-4 text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                                                        Verify
+                                                                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- CCNSE -->
+                                                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 border border-gray-200">
+                                                        <div class="flex items-start">
+                                                            <svg class="w-8 h-8 text-blue-700 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                                            </svg>
+                                                            <div class="ml-4 flex-1">
+                                                                <h4 class="text-lg font-bold text-gray-800">Certified Cloud Native Security Expert (CCNSE)</h4>
+                                                                <p class="text-gray-600 mt-2">Advanced certification validating expertise in implementing and managing Cloud Native Security programs, including securing microservices, APIs, containers, and orchestrators.</p>
+                                                                <div class="mt-4 flex items-center">
+                                                                    <span class="text-sm text-blue-700">Practical DevSecOps</span>
+                                                                    <a href="https://www.credly.com/badges/a9a9af47-0706-4d8d-821d-f44226fa2637/" target="_blank" class="ml-4 text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                                                        Verify
+                                                                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- CCSE -->
+                                                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 border border-gray-200">
+                                                        <div class="flex items-start">
+                                                            <svg class="w-8 h-8 text-blue-700 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                                            </svg>
+                                                            <div class="ml-4 flex-1">
+                                                                <h4 class="text-lg font-bold text-gray-800">Certified Container Security Expert (CCSE)</h4>
+                                                                <p class="text-gray-600 mt-2">Advanced certification validating expertise in container security, including assessment, vulnerability management, and security monitoring in production environments.</p>
+                                                                <div class="mt-4 flex items-center">
+                                                                    <span class="text-sm text-blue-700">Practical DevSecOps</span>
+                                                                    <a href="https://www.credly.com/badges/88f16ddd-de07-4bf2-bf16-4774af27dfe0" target="_blank" class="ml-4 text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                                                        Verify
+                                                                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- CDP -->
+                                                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 border border-gray-200">
+                                                        <div class="flex items-start">
+                                                            <svg class="w-8 h-8 text-blue-700 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                                            </svg>
+                                                            <div class="ml-4 flex-1">
+                                                                <h4 class="text-lg font-bold text-gray-800">Certified DevSecOps Professional (CDP)</h4>
+                                                                <p class="text-gray-600 mt-2">Professional certification validating expertise in implementing DevSecOps programs, including security automation, vulnerability management, and secure SDLC implementation.</p>
+                                                                <div class="mt-4 flex items-center">
+                                                                    <span class="text-sm text-blue-700">Practical DevSecOps</span>
+                                                                    <a href="https://www.credly.com/badges/4047edd1-2177-4010-8bcf-1db578a8a636" target="_blank" class="ml-4 text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                                                        Verify
+                                                                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- CDP -->
+                                            <!-- Penetration Testing Certifications -->
                                             <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">CDP</h3>
-                                                        <p class="text-gray-600">Certified DevSecOps Professional</p>
-                                                        <p class="text-sm text-purple-600 mt-1">Practical DevSecOps</p>
+                                                <h3 class="text-xl font-bold text-gray-800 mb-6">Penetration Testing Certifications</h3>
+                                                <div class="grid md:grid-cols-2 gap-6">
+                                                    <!-- eWPTXv2 -->
+                                                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 border border-gray-200">
+                                                        <div class="flex items-start">
+                                                            <svg class="w-8 h-8 text-blue-700 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                                            </svg>
+                                                            <div class="ml-4 flex-1">
+                                                                <h4 class="text-lg font-bold text-gray-800">Web Application Penetration Tester Extreme v2 (eWPTXv2)</h4>
+                                                                <p class="text-gray-600 mt-2">Advanced web application security certification focusing on complex exploitation techniques and advanced web attacks.</p>
+                                                                <div class="mt-4 flex items-center">
+                                                                    <span class="text-sm text-blue-700">eLearnSecurity</span>
+                                                                    <a href="https://verified.elearnsecurity.com/certificates/e7a8e92b-7488-4efe-95ca-af087ec082a8" target="_blank" class="ml-4 text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                                                        Verify
+                                                                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
 
-                                            <!-- CCSE -->
-                                            <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">CCSE</h3>
-                                                        <p class="text-gray-600">Certified Container Security Expert</p>
-                                                        <p class="text-sm text-purple-600 mt-1">Practical DevSecOps</p>
+                                                    <!-- eCPPTv2 -->
+                                                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 border border-gray-200">
+                                                        <div class="flex items-start">
+                                                            <svg class="w-8 h-8 text-blue-700 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                                            </svg>
+                                                            <div class="ml-4 flex-1">
+                                                                <h4 class="text-lg font-bold text-gray-800">Certified Professional Penetration Tester v2 (eCPPTv2)</h4>
+                                                                <p class="text-gray-600 mt-2">Professional certification demonstrating expertise in network penetration testing and advanced exploitation techniques.</p>
+                                                                <div class="mt-4 flex items-center">
+                                                                    <span class="text-sm text-blue-700">eLearnSecurity</span>
+                                                                    <a href="https://verified.elearnsecurity.com/certificates/adddd0e5-ddc8-4941-a68b-9bfe4071c258" target="_blank" class="ml-4 text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                                                        Verify
+                                                                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
 
-                                            <!-- CCNSE -->
-                                            <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">CCNSE</h3>
-                                                        <p class="text-gray-600">Certified Cloud Native Security Expert</p>
-                                                        <p class="text-sm text-purple-600 mt-1">Practical DevSecOps</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- CRTP -->
-                                            <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">CRTP</h3>
-                                                        <p class="text-gray-600">Certified Red Team Professional</p>
-                                                        <p class="text-sm text-purple-600 mt-1">Pentester Academy</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- eWPTXv2 -->
-                                            <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">eWPTXv2</h3>
-                                                        <p class="text-gray-600">Web Application Penetration Tester Extreme v2</p>
-                                                        <p class="text-sm text-purple-600 mt-1">eLearnSecurity</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- eCPPTv2 -->
-                                            <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">eCPPTv2</h3>
-                                                        <p class="text-gray-600">Certified Professional Penetration Tester v2</p>
-                                                        <p class="text-sm text-purple-600 mt-1">eLearnSecurity</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- eMAPT -->
-                                            <div class="card">
-                                                <div class="flex items-start">
-                                                    <svg class="w-8 h-8 text-purple-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                                    </svg>
-                                                    <div class="ml-3">
-                                                        <h3 class="text-lg font-bold text-gray-800">eMAPT</h3>
-                                                        <p class="text-gray-600">Mobile Application Penetration Tester</p>
-                                                        <p class="text-sm text-purple-600 mt-1">eLearnSecurity</p>
+                                                    <!-- eMAPT -->
+                                                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 border border-gray-200">
+                                                        <div class="flex items-start">
+                                                            <svg class="w-8 h-8 text-blue-700 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                                            </svg>
+                                                            <div class="ml-4 flex-1">
+                                                                <h4 class="text-lg font-bold text-gray-800">Mobile Application Penetration Tester (eMAPT)</h4>
+                                                                <p class="text-gray-600 mt-2">Specialized certification in mobile application security testing and vulnerability assessment.</p>
+                                                                <div class="mt-4 flex items-center">
+                                                                    <span class="text-sm text-blue-700">eLearnSecurity</span>
+                                                                    <a href="https://verified.elearnsecurity.com/certificates/fce47a9f-12e5-4411-af0a-48871f104f24" target="_blank" class="ml-4 text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                                                        Verify
+                                                                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
                                     <!-- Achievements Section -->
                                     <div id="achievements" class="tab-content hidden">
                                         <div class="space-y-6">
@@ -354,7 +528,7 @@
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
                                                         </svg>
                                                         <p class="font-semibold">ADDA Finals CTF</p>
-                                                        <p class="text-purple-600">3rd Place, 2022</p>
+                                                        <p class="text-blue-700">3rd Place, 2022</p>
                                                     </div>
 
                                                     <div class="p-4 bg-white rounded-lg shadow-sm">
@@ -362,7 +536,7 @@
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
                                                         </svg>
                                                         <p class="font-semibold">EG-CERT National CTF</p>
-                                                        <p class="text-purple-600">1st Place, 2019</p>
+                                                        <p class="text-blue-700">1st Place, 2019</p>
                                                     </div>
 
                                                     <div class="p-4 bg-white rounded-lg shadow-sm">
@@ -370,7 +544,7 @@
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
                                                         </svg>
                                                         <p class="font-semibold">Arab Cyber Wargames Championship</p>
-                                                        <p class="text-purple-600">4th Place, 2018</p>
+                                                        <p class="text-blue-700">4th Place, 2018</p>
                                                     </div>
 
                                                     <div class="p-4 bg-white rounded-lg shadow-sm">
@@ -378,7 +552,7 @@
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
                                                         </svg>
                                                         <p class="font-semibold">CyberTalents Finals CTF</p>
-                                                        <p class="text-purple-600">5th Place, 2017</p>
+                                                        <p class="text-blue-700">5th Place, 2017</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -412,24 +586,23 @@
 
                         <script>
                             function showTab(tabId) {
-                                // Hide all tab contents
                                 document.querySelectorAll('.tab-content').forEach(content => {
                                     content.classList.remove('active');
                                     content.style.display = 'none';
                                 });
 
-                            // Show selected tab content
-                            const selectedTab = document.getElementById(tabId);
-                            selectedTab.classList.add('active');
-                            selectedTab.style.display = 'block';
+                                const selectedTab = document.getElementById(tabId);
+                                selectedTab.classList.add('active');
+                                selectedTab.style.display = 'block';
 
-            // Update button styles
-            document.querySelectorAll('.tab-button').forEach(button => {
-                                button.classList.remove('bg-gradient-to-r', 'from-blue-600', 'to-purple-600', 'text-white', 'shadow-lg', 'transform', 'scale-105');
-            });
+                                document.querySelectorAll('.tab-button').forEach(button => {
+                                    button.classList.remove('bg-gradient-to-r', 'from-gray-900', 'to-blue-900', 'text-white', 'shadow-md', 'transform', 'scale-105');
+                                    button.classList.add('text-gray-700', 'hover:text-gray-900');
+                                });
 
-                            event.currentTarget.classList.add('bg-gradient-to-r', 'from-blue-600', 'to-purple-600', 'text-white', 'shadow-lg', 'transform', 'scale-105');
-        }
+                                event.currentTarget.classList.remove('text-gray-700', 'hover:text-gray-900');
+                                event.currentTarget.classList.add('bg-gradient-to-r', 'from-gray-900', 'to-blue-900', 'text-white', 'shadow-md', 'transform', 'scale-105');
+                            }
                         </script>
                     </body>
                 </html>
