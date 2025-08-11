@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on Mohamed Amgad Khater</title><link>https://amgad.io/tags/productivity/</link><description>Recent content in Productivity on Mohamed Amgad Khater</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>moh_amgad@hotmail.com (Mohamed Amgad Khater)</managingEditor><webMaster>moh_amgad@hotmail.com (Mohamed Amgad Khater)</webMaster><copyright>© 2025 Mohamed Amgad Khater. All rights reserved.</copyright><lastBuildDate>Sun, 10 Aug 2025 15:30:00 +0300</lastBuildDate><atom:link href="https://amgad.io/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Vibe Coding My Way Out of ADHD: How I Built an AI Assistant with Claude Code and Obsidian</title><link>https://amgad.io/posts/advanced-obsidian-project-management-system/</link><pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/posts/advanced-obsidian-project-management-system/</guid><description>How I turned my scattered brain into a productivity powerhouse using AI and some clever automation</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Mohamed Amgad Khater</title>
+    <link>http://localhost:1313/tags/productivity/</link>
+    <description>Recent content in Productivity on Mohamed Amgad Khater</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>moh_amgad@hotmail.com (Mohamed Amgad Khater)</managingEditor>
+    <webMaster>moh_amgad@hotmail.com (Mohamed Amgad Khater)</webMaster>
+    <copyright>© 2025 Mohamed Amgad Khater. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 10 Aug 2025 15:30:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vibe Coding My Way Out of ADHD: How I Built an AI Assistant with Claude Code and Obsidian</title>
+      <link>http://localhost:1313/posts/advanced-obsidian-project-management-system/</link>
+      <pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/posts/advanced-obsidian-project-management-system/</guid>
+      <description>How I turned my scattered brain into a productivity powerhouse using AI and some clever automation</description>
+      
+    </item>
+    
+  </channel>
+</rss>

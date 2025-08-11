@@ -1,1 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Mohamed Amgad Khater</title><link>https://amgad.io/tags/</link><description>Recent content in Tags on Mohamed Amgad Khater</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>moh_amgad@hotmail.com (Mohamed Amgad Khater)</managingEditor><webMaster>moh_amgad@hotmail.com (Mohamed Amgad Khater)</webMaster><copyright>© 2025 Mohamed Amgad Khater. All rights reserved.</copyright><lastBuildDate>Mon, 11 Aug 2025 12:30:00 +0300</lastBuildDate><atom:link href="https://amgad.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Ai</title><link>https://amgad.io/tags/ai/</link><pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/ai/</guid><description/></item><item><title>Cybersecurity</title><link>https://amgad.io/tags/cybersecurity/</link><pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/cybersecurity/</guid><description/></item><item><title>Security-Research</title><link>https://amgad.io/tags/security-research/</link><pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/security-research/</guid><description/></item><item><title>Welcome</title><link>https://amgad.io/tags/welcome/</link><pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/welcome/</guid><description/></item><item><title>Adhd</title><link>https://amgad.io/tags/adhd/</link><pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/adhd/</guid><description/></item><item><title>Ai-Assistant</title><link>https://amgad.io/tags/ai-assistant/</link><pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/ai-assistant/</guid><description/></item><item><title>Automation</title><link>https://amgad.io/tags/automation/</link><pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/automation/</guid><description/></item><item><title>Claude-Code</title><link>https://amgad.io/tags/claude-code/</link><pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/claude-code/</guid><description/></item><item><title>Obsidian</title><link>https://amgad.io/tags/obsidian/</link><pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/obsidian/</guid><description/></item><item><title>Productivity</title><link>https://amgad.io/tags/productivity/</link><pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate><author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author><guid>https://amgad.io/tags/productivity/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mohamed Amgad Khater</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Mohamed Amgad Khater</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>moh_amgad@hotmail.com (Mohamed Amgad Khater)</managingEditor>
+    <webMaster>moh_amgad@hotmail.com (Mohamed Amgad Khater)</webMaster>
+    <copyright>© 2025 Mohamed Amgad Khater. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Aug 2025 12:30:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Security-Research</title>
+      <link>http://localhost:1313/tags/security-research/</link>
+      <pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/security-research/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/tags/welcome/</link>
+      <pubDate>Mon, 11 Aug 2025 12:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/welcome/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adhd</title>
+      <link>http://localhost:1313/tags/adhd/</link>
+      <pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/adhd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ai-Assistant</title>
+      <link>http://localhost:1313/tags/ai-assistant/</link>
+      <pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/ai-assistant/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
+      <pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/automation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Claude-Code</title>
+      <link>http://localhost:1313/tags/claude-code/</link>
+      <pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/claude-code/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Obsidian</title>
+      <link>http://localhost:1313/tags/obsidian/</link>
+      <pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/obsidian/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/tags/productivity/</link>
+      <pubDate>Sun, 10 Aug 2025 15:30:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/tags/productivity/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
