@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI in Cybersecurity on Mohamed Amgad Khater</title>
+    <link>http://localhost:1313/series/ai-in-cybersecurity/</link>
+    <description>Recent content in AI in Cybersecurity on Mohamed Amgad Khater</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>moh_amgad@hotmail.com (Mohamed Amgad Khater)</managingEditor>
+    <webMaster>moh_amgad@hotmail.com (Mohamed Amgad Khater)</webMaster>
+    <copyright>© 2025 Mohamed Amgad Khater. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Aug 2025 13:20:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/series/ai-in-cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AI-Powered Threat Detection: The Future of Cybersecurity</title>
+      <link>http://localhost:1313/posts/ai-powered-threat-detection/</link>
+      <pubDate>Mon, 11 Aug 2025 13:20:00 +0300</pubDate>
+      <author>moh_amgad@hotmail.com (Mohamed Amgad Khater)</author>
+      <guid>http://localhost:1313/posts/ai-powered-threat-detection/</guid>
+      <description>AI-Powered Threat Detection: The Future of Cybersecurity # The cybersecurity landscape is evolving rapidly, and traditional signature-based detection methods are no longer sufficient to combat sophisticated threats.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
