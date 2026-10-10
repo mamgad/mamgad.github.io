@@ -1,0 +1,24 @@
+# Mohamed Amgad Khater
+
+> Security R&D Tech Lead at Cyshield. Builds AI-native security products (an application security platform, agentic SOC systems, and the security architecture behind an AI-powered WAF), the model infrastructure they run on, and the evaluation work that measures them. Offensive security background: OSAI, OSWE, eWPTXv2, eCPPTv2, eMAPT, published CVEs, and disclosures through HackerOne and Bugcrowd.
+
+## Profile
+
+- [About](https://amgad.io/about/): current work, how the products connect, evaluation and model infrastructure, earlier career
+- [Resume](https://amgad.io/resume/): experience, projects, skills, certifications, CVEs and awards
+- [Certifications](https://amgad.io/certificates/): every certification with a verification link
+
+## Vulnerability research
+
+- [CVE-2026-104803](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wpcom-member/wpcom-member-1727-unauthenticated-authentication-bypass-via-uuid-and-code-parameters-on-social-login-callback): unauthenticated authentication bypass in the WPCOM Member WordPress plugin
+- [CVE-2026-105059](https://patchstack.com/database/wordpress/plugin/delete-all-comments-of-website/vulnerability/wordpress-delete-all-comments-of-wordpress-plugin-7-1-broken-access-control-vulnerability): broken access control in the Delete All Comments WordPress plugin
+- [CVE-2026-93620](https://patchstack.com/database/wordpress/plugin/payplus-payment-gateway/vulnerability/wordpress-payplus-payment-gateway-plugin-8-2-5-broken-access-control-vulnerability): broken access control in the PayPlus Payment Gateway WordPress plugin
+- [CVE-2017-1000058](https://www.cve.org/CVERecord?id=CVE-2017-1000058): stored XSS in Chevereto CMS
+- [Patchstack researcher profile](https://patchstack.com/database/researchers/cbf755ce-0ada-4561-9cdf-890bc8458aed)
+- [Wordfence researcher profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/mohamed-khater)
+
+## Elsewhere
+
+- [GitHub](https://github.com/mamgad): including DVBLab, a deliberately vulnerable banking application for secure code review training
+- [LinkedIn](https://www.linkedin.com/in/moh-amgad)
+- [Blog](https://amgad.io/posts/)
