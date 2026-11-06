@@ -10,6 +10,10 @@
 
 ## Vulnerability research
 
+- [CVE-2026-120739](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/mohamed-khater): unauthenticated stored XSS in the Optimole WordPress plugin (≤ 4.2.17)
+- [CVE-2026-120683](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/mohamed-khater): unauthenticated stored XSS in the Real Testimonials WordPress plugin (4.1.0)
+- [CVE-2026-120478](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/mohamed-khater): Subscriber+ stored XSS in the HivePress WordPress plugin (≤ 1.8.1)
+- [CVE-2026-111317](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/mohamed-khater): unauthenticated stored XSS in the JetFormBuilder WordPress plugin (≤ 3.6.7)
 - [CVE-2026-62000](https://patchstack.com/database/wordpress/plugin/wc-multivendor-marketplace/vulnerability/wordpress-wcfm-marketplace-plugin-3-8-2-broken-access-control-vulnerability): broken access control in the WCFM Marketplace WordPress plugin (≤ 3.8.2)
 - [CVE-2026-120524](https://www.wordfence.com/threat-intel/vulnerabilities/id/7793c171-8aca-461c-9942-9f4d075be5ae): Subscriber+ stored XSS in the News Kit Addons For Elementor WordPress plugin (≤ 1.4.8)
 - [CVE-2026-116557](https://www.wordfence.com/threat-intel/vulnerabilities/id/b25cc768-3377-41c9-acf5-8f6c993287c9): unauthenticated calendar note deletion in the WP Booking System WordPress plugin (≤ 2.1.0.5)
